@@ -11,9 +11,9 @@ RUN \
     libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev && \
   apt-get -y install libsystemd-journal0 apparmor libsystemd-id128-0 libdevmapper1.02.1 && \
   ln -s /lib/x86_64-linux-gnu/libdevmapper.so.1.02.1 /lib/x86_64-linux-gnu/libdevmapper.so.1.02 && \
-	pip install -I -U --upgrade pip && \
+	python -m pip install -I -U --upgrade pip && \
 	\
-	pip install -I -U ansible==1.9.2 && \
+	python -m pip install -I -U ansible==1.9.2 && \
   \
   apt-get -y remove --purge python-dev python-pip build-essential checkinstall libgmp3-dev libffi-dev \
     libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev && \
