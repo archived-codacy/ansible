@@ -9,7 +9,7 @@ RUN \
   apt-get -y install python && \
   apt-get -y install python-dev python-pip build-essential checkinstall libgmp3-dev libffi-dev \
     libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev && \
-  apt-get -y install libsystemd-journal0 apparmor libsystemd-id128-0 libdevmapper1.02.1 && \
+  apt-get -y install apparmor libdevmapper1.02.1 && \
   ln -s /lib/x86_64-linux-gnu/libdevmapper.so.1.02.1 /lib/x86_64-linux-gnu/libdevmapper.so.1.02 && \
 	python -m pip install -I -U --upgrade pip && \
 	\
