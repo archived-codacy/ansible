@@ -6,6 +6,7 @@ MAINTAINER Rodrigo Fernandes <rodrigo@codacy.com>
 RUN \
   apt-get -y update && \
   apt-get -y install python-software-properties && \
+  apt-get -y install sudo && \
   apt-get -y install python && \
   apt-get -y install python-dev python-pip build-essential checkinstall libgmp3-dev libffi-dev \
     libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev && \
