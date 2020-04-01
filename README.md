@@ -1,6 +1,6 @@
 # Codacy Docker Ansible
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e8337f1f706448dba6917a4e41181a4)](https://www.codacy.com/app/Codacy/ansible?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=codacy/ansible&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3e8337f1f706448dba6917a4e41181a4)](https://www.codacy.com/gh/codacy/ansible?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=codacy/ansible&amp;utm_campaign=Badge_Grade)
 [![CircleCI](https://circleci.com/gh/codacy/ansible.svg?style=svg)](https://circleci.com/gh/codacy/ansible)
 [![Docker Version](https://images.microbadger.com/badges/version/codacy/ansible.svg)](https://microbadger.com/images/codacy/ansible "Get your own version badge on microbadger.com")
 
